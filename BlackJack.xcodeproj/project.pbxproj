@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C5D4A51B7D351900F9CF4F /* FISPlayingcard.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C5D4A41B7D351900F9CF4F /* FISPlayingcard.m */; };
 		440FE73819464F8000C45D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73719464F8000C45D87 /* Foundation.framework */; };
 		440FE73A19464F8000C45D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73919464F8000C45D87 /* CoreGraphics.framework */; };
 		440FE73C19464F8000C45D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73B19464F8000C45D87 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C5D4A31B7D351900F9CF4F /* FISPlayingcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlayingcard.h; sourceTree = "<group>"; };
+		10C5D4A41B7D351900F9CF4F /* FISPlayingcard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlayingcard.m; sourceTree = "<group>"; };
 		440FE73419464F8000C45D87 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440FE73719464F8000C45D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		440FE73919464F8000C45D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				440FE74519464F8000C45D87 /* BlackJack-Prefix.pch */,
 				440FE74919464F8000C45D87 /* Images.xcassets */,
 				440FE73E19464F8000C45D87 /* Supporting Files */,
+				10C5D4A31B7D351900F9CF4F /* FISPlayingcard.h */,
+				10C5D4A41B7D351900F9CF4F /* FISPlayingcard.m */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440FE74419464F8000C45D87 /* main.m in Sources */,
+				10C5D4A51B7D351900F9CF4F /* FISPlayingcard.m in Sources */,
 				440FE74819464F8000C45D87 /* FISAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
